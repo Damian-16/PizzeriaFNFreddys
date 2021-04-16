@@ -1,0 +1,102 @@
+
+
+
+
+
+header {
+    height: 20vh;
+    width:100%;
+    background:linear-gradient(70deg, black, orange);
+    flex-wrap: wrap;
+    display: flex;
+    
+
+  
+  }
+
+  main {
+    height: 80vh;
+    
+  }
+  
+      
+      aside, section {
+        display: inline-block;
+        height: 80vh;
+      
+      }
+      
+      aside {
+        width: 20vw;
+        background:linear-gradient(120deg, black, orange);
+        width:100%;
+      
+      }
+      aside img{
+          height: 15vh;
+          width:17vw;
+          border-radius: 10px;
+      }
+      
+      aside div {
+        height: 15vh;
+        margin: 3vh;
+      
+      }
+      
+    section {
+        background-color:black ;
+        position: absolute;
+        left: 20vw;
+        width: 80vw;
+        padding: 1rem;
+        
+      } 
+      section img{
+          width: 76vw;
+          height:74vh;
+          position: relative;
+          padding: 0px;
+          margin:0px
+      }
+      .bloque{
+          position: absolute;
+          display: inline-block;
+          align-self: center;
+      }
+      .parrafo{
+        font-size: 30px;
+        position: absolute;
+        color: blanchedalmond;
+        display: inline-block;
+        margin-top: 20%;
+      }
+    
+      footer {
+
+        display: flex;
+      
+        background-color:#211b19;
+        justify-content: space-between;
+        height: 8rem;
+      
+        width:100%;
+        
+      
+      
+      }
+      
+      .footer-redes, .footer-contactos {
+        display: inline-block;
+        padding:1vh;
+        background-color: coral;
+        margin: 1rem;
+        border-radius: 10px;
+        color: white;
+      }
+      
+      .footer-contactos {
+        position: absolute;
+        right: 1.5rem;
+        
+      }

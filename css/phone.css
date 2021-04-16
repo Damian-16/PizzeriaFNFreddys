@@ -1,0 +1,187 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+   
+  }
+  
+  html {
+    font-size: 62.5%;
+  }
+  
+  body {
+    font-size: 1.6rem;
+    font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  }
+  
+  li {
+    list-style: none;
+  }
+  
+  header {
+    height: 60%;
+    width: 150%;
+    background:linear-gradient(70deg, black, orange);
+    flex-wrap: wrap;
+    display: flex;
+  
+   
+  }
+  header img{
+     height: 25rem;
+     width: 13rem;
+
+     padding-bottom: 15vh;
+ }
+ h1{
+    flex:1;
+  
+    color:orange;
+    left:15rem
+   
+}
+figure{
+    display: flex;
+   
+   
+  }
+  .nav
+  {
+    padding:0;
+
+    flex-wrap: wrap;
+  }
+  .container {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: flex-end;
+    border: firebrick solid;
+    height:10vh;
+   
+  
+    
+  }
+  .box{
+    padding:.5rem;
+    background-color: dimgrey;
+    border-radius: 1rem;
+    margin: .5rem;
+   
+    color:white;
+}
+main {
+  height: 120vh;
+  flex:1;
+  
+}
+aside, section {
+  display: flex;
+  flex-wrap: wrap;
+
+  
+}
+
+aside {
+  width: 150%;
+  background:linear-gradient(120deg, black, orange);
+ 
+  display: flex;
+ 
+}
+aside img{
+    height: 5rem;
+    width:8rem;
+    border-radius: 10px;
+    margin: 1rem;
+   
+  
+}
+
+aside div {
+  height: 15vh;
+  margin-bottom: 5rem;
+
+ 
+}
+
+section {
+    background-color:black ;
+    width: 150%;
+    height: 100vh;
+   
+    padding:.5rem;
+    flex-wrap: wrap;
+    display: flex;
+    flex:1;
+  
+} 
+section img{
+   height:28rem;
+   width:100%;
+    position: relative;
+    padding: 0px;
+    margin:0px
+}
+.bloque{
+  
+    display: inline-block;
+    align-self: center;
+}
+.parrafo{
+  font-size: 3rem;
+  position: absolute;
+  color: blanchedalmond;
+  display: flex;
+  text-align: start;
+ 
+}
+footer {
+  flex:1;
+  display: flex;
+  /* height:10rem; */
+  background-color:#211b19;
+  width: 150%;
+  position: absolute;
+  
+ 
+
+}
+
+.footer-redes, .footer-contactos {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  background-color: coral;
+  margin: 1rem;
+  border-radius: 10px;
+  color: white;
+  padding:.4rem;
+  width: 10rem;
+  height: 5rem;
+}
+
+.footer-contactos {
+  
+ margin-left: 50%;
+  
+  
+}
+
+
+
+
+/*                       MODO TABLET                            */
+
+
+
+  
+
+
+
+
+
+/*              MODO DESKTOP                                     */
+
+
+   
